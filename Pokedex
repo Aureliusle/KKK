@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pok&eacute;Dex! </title>
+  <link rel="shortcut icon" type="image/png" href="icon.png" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<center>
+
+  <body>
+
+    <center>
+      <h1 class="title">Pok&eacute;Dex</h1>
+      <button id="sortbtn" onclick="sort();">Sort &#8595;</button>
+      <br>
+      <br>
+      <input id="searchbar" onkeyup="search()"></input>
+
+
+      <div id="load">Loading Pokemon...
+      </div>
+
+      <div id="pokemons">
+      </div>
+
+
+      </div>
+    </center>
+
+  </body>
+</center>
